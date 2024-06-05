@@ -35,7 +35,7 @@ Clone the repository:
 
 sh
 Copy code
-git clone https://github.com/hritvik16000/master/Insight-Loom.git
+git clone [https://github.com/hritvik16000/master/Insight-Loom.git]
 Set your OpenAI API key in the auto_analysis.py file:
 
 python

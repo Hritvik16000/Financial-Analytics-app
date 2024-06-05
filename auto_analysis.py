@@ -16,7 +16,7 @@ def perform_auto_analysis(data, default_dataset):
         first_rows = data.head().to_string(index=False)
 
         if default_dataset:
-            file_name = "amazon_reviews.csv"
+            file_name = "Indian_cities.csv"
         else:
             file_name = uploaded_file.name
 
@@ -79,7 +79,7 @@ def auto_analysis(data, default_dataset):
             first_rows = data.head().to_string(index=False)
             
             if default_dataset:
-                file_name = "amazon_reviews.csv"
+                file_name = "Indian_cities.csv"
             else:
                 file_name = uploaded_file.name
             

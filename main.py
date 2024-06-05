@@ -121,10 +121,10 @@ st.markdown("<div class='main-container'>", unsafe_allow_html=True)
 
 # File upload
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
-default_dataset = st.checkbox("Use default amazon_reviews.csv dataset")
+default_dataset = st.checkbox("Use default Indian_cities.csv dataset")
 
 if default_dataset:
-    data = pd.read_csv("Dataset/amazon_reviews.csv")
+    data = pd.read_csv("Dataset/Indian_cities.csv")
 else:
     if uploaded_file is not None:
         data = pd.read_csv(uploaded_file)

@@ -1,6 +1,6 @@
 # EZ-Analyst: Automated EDA and Data Analysis App
 
-![EZ-Analyst Logo](images/main.png)
+!(images/main.png)
 
 EZ-Analyst is a Streamlit-based application that streamlines the process of exploratory data analysis (EDA) and automates data analysis tasks. With its user-friendly interface and powerful features, EZ-Analyst makes it easy for data analysts and enthusiasts to gain insights from their datasets quickly. The tool also leverages Open-AI to improve data analysis and generate code and reports easily.
 
